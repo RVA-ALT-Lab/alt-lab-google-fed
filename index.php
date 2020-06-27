@@ -15,15 +15,6 @@ Text Domain: my-toolset
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 
-// add_action('wp_enqueue_scripts', 'prefix_load_scripts');
-
-// function prefix_load_scripts() {                           
-//     $deps = array('jquery');
-//     $version= '1.0'; 
-//     $in_footer = true;    
-//     wp_enqueue_script('prefix-main-js', plugin_dir_url( __FILE__) . 'js/prefix-main.js', $deps, $version, $in_footer); 
-//     wp_enqueue_style( 'prefix-main-css', plugin_dir_url( __FILE__) . 'css/prefix-main.css');
-// }
 
 // Define path and URL to the ACF plugin.
 define( 'GOOGLE_FED_ACF_PATH', plugin_dir_path(__FILE__) . 'includes/acf/' );
