@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: ALT Lab Google Fed
-Plugin URI:  https://github.com/
+Plugin URI:  https://github.com/RVA-ALT-Lab/alt-lab-google-fed
 Description: Sync a public Google Document to a WordPress Post via the URL
 Version:     1.0
 Author:      ALT Lab
