@@ -99,7 +99,7 @@ function google_fed_display_doc($content){
     $g_url = get_field('g_doc_url', $post_id);
     $page = file_get_contents($g_url);
 
-    //this works
+    //this works and I am lazy https://stackoverflow.com/questions/15643710/php-get-a-div-from-page-x
     $first_step = explode( '<div id="contents">' , $page );
     $second_step = explode("</div>" , $first_step[1] );
     return $content . $second_step[0];
